@@ -1,0 +1,206 @@
+.main-submit{
+    display: flex;
+    flex-direction: column;
+  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://i.ibb.co/P5Smpzc/IMG-20201208-155830.jpg");
+    box-sizing: border-box;
+    position: relative;
+    font-family: cornerstone;
+    font-weight: bolder;
+    width: 100vw;
+   height: 120vh;
+   
+}
+p{
+    position: relative;
+    box-sizing: content-box;
+    top:6px;
+    left:10px;
+}
+h2{
+    left:5px;
+    position: relative;
+    box-sizing: content-box; 
+}
+.submit-container{
+    
+    border-radius: 15px;
+    position: relative;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    background-color: rgb(0, 86, 119, 0.8);
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50vw;
+   
+    
+    
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+      box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+  }
+  .submit-item {
+    margin: 24px;
+    padding-top: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    height: 10vh;
+    width: 20vw;
+    
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+  }
+  .submit-item3 {
+    margin: 7px;
+    left: 5vw;
+    padding-top: 20px;
+    margin-left: 15px;
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    height: 8vh;
+    width: 20vw;
+   
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+  }
+  .button-submit{ 
+    top:150px;
+    width:100px;
+    height: 40px;
+    
+    position: relative;
+    
+    border-radius: 15px;
+    background-color: rgb(108 ,178, 226);
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+  }
+  .button-edit , .button-done{
+   
+    position: relative;
+   
+    border-radius: 15px;
+    background-color: rgb(160, 33, 64);
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+  }
+  .button-edit:hover {
+    background-color: rgb(6, 23, 34);
+    color: white;
+  }
+  .button-done:hover {
+    background-color: rgb(6, 23, 34);
+    transform: scale(.90);
+    color: white;
+  }
+  .button-edit:active{
+    background-color: rgb(85, 87, 89);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.button-done:active{
+    background-color: rgb(85, 87, 89);
+    box-shadow: 0 5px #666;
+    transform: translateY(8px);
+}
+
+
+  button:hover{
+    background-color: rgb(6, 23, 34);
+    color: white;
+  }
+  button:active{
+    background-color: rgb(85, 87, 89);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/* confirm */
+p{
+  font-size: larger;
+}
+.popup{
+  position: fixed;
+  top:15vh;
+  left:30vw;
+}
+.form-container-complete {
+  top: 50px;
+  border-radius: 15px;
+  position: relative;
+  padding-top: 50px;
+  box-sizing: border-box;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  background-color: rgba(236, 239, 240);
+  
+  flex-direction: column;
+ 
+  width: 40vw;
+  height: 50vh;
+  -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+}
+.complete-item {
+ bottom: 100px;
+  margin-left: 200px;
+  border-radius: 20px;
+  position: relative;
+  background-color: white;
+  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  height: 10vh;
+  width: 20vw;
+  border: 1px black solid;
+  -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+}
+.button-cancel{
+  border: 5px solid black;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: rgb(160, 33, 64);
+  -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.4);
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.4);
+}
+.button-cancel:hover{
+  background-color: rgb(6, 23, 34);
+  color: white;
+}
+.button-cancel:active{
+  background-color: rgb(85, 87, 89);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
